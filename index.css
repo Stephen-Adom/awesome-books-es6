@@ -1,0 +1,155 @@
+/* stylelint-disable no-descending-specificity */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: cursive;
+  height: 100vh;
+  margin: 0;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 3px solid black;
+  padding: 0 8px;
+  background-color: #fff;
+}
+
+nav .navbar-title {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 8px;
+}
+
+nav ul li {
+  border-right: 2px solid;
+}
+
+nav ul li:last-child {
+  border-right: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  padding: 0 10px;
+  color: black;
+  font-weight: 500;
+}
+
+nav ul li a.active {
+  color: #0284c8;
+}
+
+.current-date {
+  text-align: right;
+  padding-right: 5px;
+}
+
+.current-date p {
+  font-size: 12px;
+  margin-top: 5px;
+  font-weight: 600;
+}
+
+.main {
+  max-width: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+.book-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 4px 12px;
+  box-sizing: border-box;
+}
+
+.book-info:nth-child(odd) {
+  background-color: #eceaea;
+}
+
+button {
+  background: #fff;
+  padding: 4px 12px;
+  border-width: 3px;
+  font-weight: 700;
+  font-size: 13px;
+  box-shadow: 2px 2px;
+}
+
+.book-info p {
+  margin: 0;
+}
+
+form {
+  padding: 20px 0;
+  width: 45%;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group input {
+  width: 100%;
+  border: 3px solid black;
+  padding: 7px;
+}
+
+.form-group:last-child {
+  text-align: right;
+}
+
+.book-list-container {
+  width: 100%;
+  border: 3px solid black;
+}
+
+.book-list-page {
+  width: 100%;
+}
+
+hr {
+  width: 50%;
+  background: black;
+  height: 3px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border: 3px solid black;
+  padding: 0 8px;
+  margin-top: 40px;
+  background-color: #fff;
+}
+
+footer p {
+  margin: 8px 0;
+  font-size: 14px;
+}
