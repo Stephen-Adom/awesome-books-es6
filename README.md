@@ -82,6 +82,7 @@ Clone this repository to your desired folder:
 ```sh
   cd my-folder
   git clone git@github.com/Stephen-Adom/awesome_books.git
+  run npm install
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
