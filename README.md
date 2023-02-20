@@ -46,6 +46,9 @@
 
 - **Book List Section**
 - **Add Book Form**
+- **Navigation Bar**
+- **Footer**
+- **Contact Page**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -91,12 +94,6 @@ Clone this repository to your desired folder:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Yared Tekle**
-
-- GitHub: [@yaredtekle022](https://github.com/yaredtekle022)
-- Twitter: [@YaredTekle22](https://twitter.com/YaredTekle22)
-- LinkedIn: [yared-tekle-5708ba22b](https://www.linkedin.com/in/yared-tekle-5708ba22b/)
-
 👤 **Stephen Addae**
 
 - GitHub: [@Stephen-Adom](https://github.com/Stephen-Adom)
@@ -110,9 +107,6 @@ Clone this repository to your desired folder:
 ## 🔭 Future Features <a name="future-features"></a>
 
 > Describe 1 - 3 features you will add to the project.
-
-- [ ] **Navigation Links**
-- [ ] **Contact Page**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
